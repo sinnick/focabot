@@ -1,0 +1,193 @@
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8852) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:8852) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:84:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:100:9)
+(node:8852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:26172) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:26172) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:26172) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:26172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:26172) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:41
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:80:19)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:26172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+(node:7936) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:7936) UnhandledPromiseRejectionWarning: Error: Evaluation failed: TypeError: Cannot read property 'innerHTML' of null
+    at __puppeteer_evaluation_script__:1:66
+    at ExecutionContext._evaluateInternal (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ExecutionContext.evaluate (C:\Users\Fernando\Desktop\code\discord\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:110:16)
+    at async main (C:\Users\Fernando\Desktop\code\discord\foca.js:81:18)
+    at async buscarInc (C:\Users\Fernando\Desktop\code\discord\foca.js:97:9)
+(node:7936) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+(node:14896) UnhandledPromiseRejectionWarning: DiscordAPIError: Invalid Form Body
+embed.url: Not a well formed URL.
+embeds[0].url: Not a well formed URL.
+    at RequestHandler.execute (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\rest\RequestHandler.js:154:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async RequestHandler.push (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\rest\RequestHandler.js:39:14)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14896) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:14896) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.

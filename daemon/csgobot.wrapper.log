@@ -1,0 +1,50 @@
+2021-06-28 10:47:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\Users\Fernando\Desktop\code\discord\cs.js --log "csgobot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-06-28 10:47:20 - Started 43072
+2021-06-29 11:11:21 - Stopping csgobot.exe
+2021-06-29 11:11:21 - ProcessKill 43072
+2021-06-29 11:11:22 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2021-06-29 11:11:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\Users\Fernando\Desktop\code\discord\cs.js --log "csgobot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-06-29 11:11:57 - Started 7544
+2021-06-29 13:47:33 - Stopping csgobot.exe
+2021-06-29 13:47:33 - ProcessKill 7544
+2021-06-29 13:47:33 - Shutdown exception
+Message:Clase no registrada
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2021-06-29 13:48:09 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\Users\Fernando\Desktop\code\discord\cs.js --log "csgobot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-06-29 13:48:09 - Started 7560
+2021-06-30 14:35:27 - Stopping csgobot.exe
+2021-06-30 14:35:27 - ProcessKill 7560
+2021-06-30 14:35:27 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2021-06-30 14:36:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\Users\Fernando\Desktop\code\discord\cs.js --log "csgobot wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-06-30 14:36:08 - Started 6996

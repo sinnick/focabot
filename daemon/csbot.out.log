@@ -1,0 +1,960 @@
+BOT READY
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '854389658363494440',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '854390190298103817',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: '854390236837707827',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '854391041821376532',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '854720926414929930',
+    lastMessageChannelID: '689466577476649172'
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: '854727228369010759',
+    lastMessageChannelID: '689466577476649172'
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: '854727228369010759',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '854727450898071564',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '854728934859997234',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+BOT READY
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '855093071451258921',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '185187806447009793',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'nEwwbit0',
+    bot: false,
+    discriminator: '0012',
+    avatar: 'baebc51cfe761ab73b1b7d43e6f7c68b',
+    lastMessageID: '855093073771626516',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '185187806447009793',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'nEwwbit0',
+    bot: false,
+    discriminator: '0012',
+    avatar: 'baebc51cfe761ab73b1b7d43e6f7c68b',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '855093091383771136',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '185187806447009793',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'nEwwbit0',
+    bot: false,
+    discriminator: '0012',
+    avatar: 'baebc51cfe761ab73b1b7d43e6f7c68b',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '855093110739566592',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '855152318085595194',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '855153017849380905',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: '855153058475409438',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '855153063446708274',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '185187806447009793',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'nEwwbit0',
+    bot: false,
+    discriminator: '0012',
+    avatar: 'baebc51cfe761ab73b1b7d43e6f7c68b',
+    lastMessageID: '855153110291972107',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '855428309450096671',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '855448296328003664',
+    lastMessageChannelID: '689466577476649172'
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '855448296328003664',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: '855449186887270417',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '855450651949531186',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '855452130302754818',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '693106117068324934',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'screammer',
+    bot: false,
+    discriminator: '8327',
+    avatar: null,
+    lastMessageID: '855458401454522389',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '693106117068324934',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'screammer',
+    bot: false,
+    discriminator: '8327',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '855458434648768522',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '693106117068324934',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'screammer',
+    bot: false,
+    discriminator: '8327',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '855564629437448253',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '543988034316795905',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'lucas_cdgcat92',
+    bot: false,
+    discriminator: '0417',
+    avatar: '7010c0d9b25d42b7af994a1676bff6f0',
+    lastMessageID: '856898926640365568',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: '856963545584107570',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: '856963644242788372',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: '856963716096458772',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
+[
+  User {
+    id: '86096582923018240',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Fer',
+    bot: false,
+    discriminator: '8878',
+    avatar: 'e1a59d8e758cf8fb2959132cc60cf813',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '469351699736166404',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'El Gonzi',
+    bot: false,
+    discriminator: '0668',
+    avatar: null,
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '565743897628901376',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'Franco14rp',
+    bot: false,
+    discriminator: '5173',
+    avatar: 'b1aaa07d48edaac67ba9657d5ed070a2',
+    lastMessageID: null,
+    lastMessageChannelID: null
+  },
+  User {
+    id: '694189481867083777',
+    system: null,
+    locale: null,
+    flags: UserFlags { bitfield: 0 },
+    username: 'GGG',
+    bot: false,
+    discriminator: '7953',
+    avatar: null,
+    lastMessageID: '856980449968521237',
+    lastMessageChannelID: '689466577476649172'
+  }
+]
