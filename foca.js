@@ -1,8 +1,11 @@
+require('dotenv').config()
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const urlfoca = `http://debonline.dyndns.org:8081/sac/usuario/informes/buscar_inc.php?mand_idd=`;
-let url = `http://debonline.dyndns.org:8081/sac/usuario/incidencias/listas/listausuarios.php?mand_idd=`
 const puppeteer = require('puppeteer');
+let url = `http://debonline.dyndns.org:8081/sac/usuario/incidencias/listas/listausuarios.php?mand_idd=`
+const token = process.env.TOKEN_DISCORD
+client.login(token);
 client.on("ready", () => {
   console.log("BOT FOCA READY");
 });
@@ -12,17 +15,6 @@ let asignado = '';
 let cliente = ''
 let asunto= '';
 let detalle='';
-
-
-
-//reconocer comandos
-//armar link
-//buscar incidencia
-//traer datos incidencia
-//revisarlos
-//    en caso de estar ok, postearlos
-//    en caso de algun error, avisar y devolver link
-
 
 client.on("message", (message) => {
 
@@ -78,7 +70,6 @@ client.on("message", (message) => {
         } else if (textoMensaje == 'sql2008') {
           message.reply("", {
             embed: {
-              //title: `Foca BOT`,
               author: `Foca BOT`,
               description: `[SQL 2008](https://drive.google.com/u/0/uc?id=0B237whzqWlkWR0gyYmVicW8xOUE&export=download)`,
               color: 16774400,
@@ -88,7 +79,6 @@ client.on("message", (message) => {
         else if (textoMensaje == 'sql2016') {
           message.reply("", {
             embed: {
-              //title: `Foca BOT`,
               author: `Foca BOT`,
               description: `[SQL 2016](https://drive.google.com/uc?id=11aO9kNnNp84s1EVFtnJDbaFqwL4mLr_r&export=download)`,
               color: 16774400,
@@ -97,7 +87,6 @@ client.on("message", (message) => {
         else if (textoMensaje == 'sql2019') {
           message.reply("", {
             embed: {
-              //title: `Foca BOT`,
               author: `Foca BOT`,
               description: `[SQL 2019](https://drive.google.com/uc?id=1YwsRQng89aim-thgPikNdN3QYPtIcoWk&export=download)`,
               color: 16774400,
@@ -106,7 +95,6 @@ client.on("message", (message) => {
         else if (textoMensaje == 'git') {
           message.reply("", {
             embed: {
-              //title: `Foca BOT`,
               author: `Foca BOT`,
               description: `[GIT](http://debonline.dyndns.org:4334/owncloud/index.php/s/PsRE2zkiwytl1Bw/download) , para clonar MercadoPago tirar => **git clone git@debonline.dyndns.org:php/mp_websocket_client.git**`,
               color: 16774400,
@@ -115,7 +103,6 @@ client.on("message", (message) => {
         else if (textoMensaje == 'xampp') {
           message.reply("", {
             embed: {
-              //title: `Foca BOT`,
               author: `Foca BOT`,
               description: `[XAMPP](http://debonline.dyndns.org:4334/owncloud/index.php/s/EhY1lxeTVj2bIY0/download)`,
               color: 16774400,
@@ -124,7 +111,6 @@ client.on("message", (message) => {
         else if (textoMensaje == 'adobe') {
           message.reply("", {
             embed: {
-              //title: `Foca BOT`,
               author: `Foca BOT`,
               description: `[ADOBE READER](http://debonline.dyndns.org:4334/owncloud/index.php/apps/files/ajax/download.php?dir=%2FREPOSITORIO%2FRETAIL%2F1.Instaladores&files=ADOBE%20READER%20FULL%2011.exe)`,
               color: 16774400,
@@ -140,10 +126,9 @@ client.on("message", (message) => {
             }});
         }
       } else if (message.content > 200000 && message.content < 400000){
-        //16774400
+        
        message.channel.send("", {
-              embed: {
-                //title: `Foca BOT`,
+                embed: {
                 author: `Foca BOT`,
                 description: "Ahora los comandos se deben enviar con `!` adelante. Para consultar mas comandos se puede usar `!comandos`",
                 color: 16774400,
@@ -152,42 +137,19 @@ client.on("message", (message) => {
       }}
       );
       
-      client.login("ODU0MDI0MjIxODg4NjEwMzU0.YMd6CQ.8Suv867ucdwYuCGJ3gzRVI8GBT8");
       
-
-
-
       
       async function main(link,numIncidencia) {
-        
         //inicia puppeteer
         const browser = await puppeteer.launch({headless: true});
         const page = await browser.newPage();
-        
         //setea tamaño del viewport
         await page.setViewport({width: 1200, height: 720});
-        
         //navega a la pagina
         await page.goto(link, { waitUntil: 'networkidle0' }); // wait until page load
-        
-        //  console.log('Incidencia:    ', numIncidencia)
-        
-        // const d = new Promise ((resolve,reject) => {
-        // async function buscarDatos(page){
-          await traerDatos(page);
-          browser.close();
-        //   if (asunto) {
-        //     resolve('promesa OK')
-        //   } else {
-        //     reject('promesa rechazada')
-        //   }
-        // }
-
-        // })
-        
-        // d.then((asd) => {console.log(asd)}).catch((asd) => {console.log(asd)})
-
-      }
+        await traerDatos(page);
+        browser.close();
+       }
 
 
       async function traerDatos(page) {
@@ -199,16 +161,12 @@ client.on("message", (message) => {
             asignado = 'vacio'
           }
           
-          
-          
           if (await (page.evaluate(() => document.querySelector('.enlace'))) != null) {
             cliente = await page.evaluate(() => document.querySelector('.enlace').innerHTML)
             
           } else {
             cliente = 'vacio'
           }
-          
-          
           
           if (await (page.evaluate(() => document.querySelector('tr:nth-child(2) .td:nth-child(2)'))) != null) {
             asunto = await page.evaluate(() => document.querySelector('tr:nth-child(2) .td:nth-child(2)').innerHTML)
@@ -217,22 +175,12 @@ client.on("message", (message) => {
             asunto = 'vacio'
           }
           
-          
-          
           if (await (page.evaluate(() => document.querySelector('.ReporteMaestro'))) != null) {
             detalle = await page.evaluate(() => document.querySelector('.ReporteMaestro').innerHTML)
             
           } else {
             detalle = 'vacio'
           }
-          
-          
-          
-          // detalle = await page.evaluate(() => document.querySelector('.ReporteMaestro').innerHTML)
-          //asunto = await page.evaluate(() => document.querySelector('tr:nth-child(2) .td:nth-child(2)').innerHTML)
-          console.log('Asignado:      ', asignado)
-          console.log('Asunto:        ',asunto)
-          console.log('Cliente:       ',cliente)
           
           for (i=0; i<200; i++){
             detalle = detalle.replace('<br>', '\n');
@@ -242,32 +190,12 @@ client.on("message", (message) => {
             }
             
       }
-      
-      // async function buscarInc(numIncidencia, message, link) {
-        
-      //   await message.channel.send("", {
-      //     embed: {
-      //       title: `Incidencia ${numIncidencia}`,
-      //       author: {
-      //         "name": `${asignado.toUpperCase()}`
-      //       },            
-      //       description: `Cliente: ${cliente}
-      //                     Asunto: ${asunto}
-
-      //                     ${detalle}`,
-      //       url: `${link}`,
-      //       color: 4259622,
-      //     }
-      //   })
-
-      // }
-     
-      const mensajeTemporal = async (channel,numIncidencia, mensajito) => {
+      const mensajeTemporal = async (channel,numIncidencia, mensajeUsuario) => {
         const link = `${url}${numIncidencia}`
     
         const d = new Promise (async (resolve,reject) => {
 
-          mensajito.channel.send("", {
+          mensajeUsuario.channel.send("", {
             embed: {description: `Buscando incidencia ${numIncidencia}...`,
                     color: 5814783,
             }}).then((message) => {
@@ -279,19 +207,13 @@ client.on("message", (message) => {
             await main(link,numIncidencia);
            
               if (asunto == 'vacio' || cliente == 'vacio' || detalle == 'vacio' || asignado == 'vacio') {
-                // message.delete()
-                reject(mensajito)
+                reject(mensajeUsuario)
               } else {
-                // message.delete()
-                resolve(mensajito)
+                resolve(mensajeUsuario)
               }
 
         })
         
-        // d.then((asd) => {console.log(asd)}).catch((asd) => {console.log(asd)})
-        
-        
-       
           d.then((message) => { 
 
             
@@ -320,21 +242,12 @@ client.on("message", (message) => {
                   color: 4259622,
                 }}
               )
-            
-
-              
-                             
+         
           }).catch((message) => {message.channel.send("", {
             embed: {description: `Incidencia **${numIncidencia}** no se puede mostrar, dejo el link [ACÁ](${link})`,
             color: 16711680,
-              }}
-          )
-
-          })
-          
-        }
-                    
-
+              }})})}
+                
         async function unirAsignado(page) {
           asignado =  await page.evaluate(() => document.querySelector('tr+ tr .td:nth-child(4)')).innerHTML;
         }

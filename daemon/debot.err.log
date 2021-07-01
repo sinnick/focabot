@@ -191,3 +191,33 @@ embeds[0].url: Not a well formed URL.
 (Use `node --trace-warnings ...` to show where the warning was created)
 (node:14896) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
 (node:14896) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:29180) UnhandledPromiseRejectionWarning: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\client\websocket\WebSocketManager.js:133:26)
+    at Client.login (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\client\Client.js:223:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29180) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:29180) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:6980) UnhandledPromiseRejectionWarning: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\client\websocket\WebSocketManager.js:133:26)
+    at Client.login (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\client\Client.js:223:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6980) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:6980) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3848) UnhandledPromiseRejectionWarning: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\client\websocket\WebSocketManager.js:133:26)
+    at Client.login (C:\Users\Fernando\Desktop\code\discord\node_modules\discord.js\src\client\Client.js:223:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3848) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:315:20)
+    at process.exit (internal/process/per_thread.js:169:15)
+    at monitor (C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\Fernando\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:315:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)

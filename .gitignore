@@ -1,3 +1,5 @@
 node_modules/
-cs.js
 daemon/
+cs.js
+daemon/*.*
+*.env
