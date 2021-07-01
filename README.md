@@ -1,5 +1,5 @@
-# Introduccion:
-BOT para discord usando DiscordJS y Puppeteer.
+# Informacion:
+BOT para discord en NodeJS usando DiscordJS y Puppeteer.
 
 
 ```

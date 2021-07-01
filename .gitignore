@@ -1,5 +1,6 @@
 node_modules/
 daemon/
 cs.js
-daemon/*.*
+daemon/*
 *.env
+.gitignore
