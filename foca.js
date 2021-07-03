@@ -1,11 +1,10 @@
-// require('dotenv').config()
-// const token = process.env.TOKEN_DISCORD
-
+ require('dotenv').config()
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const urlfoca = `http://debonline.dyndns.org:8081/sac/usuario/informes/buscar_inc.php?mand_idd=`;
 const puppeteer = require('puppeteer');
 let url = `http://debonline.dyndns.org:8081/sac/usuario/incidencias/listas/listausuarios.php?mand_idd=`
+const token = process.env.TOKEN_DISCORD
 client.login(process.env.DJS_TOKEN);
 client.on("ready", () => {
   console.log("BOT FOCA READY");
