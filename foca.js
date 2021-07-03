@@ -5,7 +5,7 @@ const urlfoca = `http://debonline.dyndns.org:8081/sac/usuario/informes/buscar_in
 const puppeteer = require('puppeteer');
 let url = `http://debonline.dyndns.org:8081/sac/usuario/incidencias/listas/listausuarios.php?mand_idd=`
 const token = process.env.TOKEN_DISCORD
-client.login(process.env.DJS_TOKEN);
+client.login(token);
 client.on("ready", () => {
   console.log("BOT FOCA READY");
 });
