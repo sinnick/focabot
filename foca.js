@@ -18,7 +18,7 @@ let detalle='';
 
 client.on("message", (message) => {
 
-  if (message.content.startsWith('!')){
+  if ((message.content.startsWith('!')) || (message.content > 200000 && message.content < 400000)){
     mensaje = message;
     textoMensaje = (message.content.replace('!', '')).toLowerCase();
   
@@ -34,8 +34,20 @@ client.on("message", (message) => {
                 title: `Comandos actuales:`,
                fields: [
                   {
-                    name: `!<Nº incidencia>`,
+                    name: `<Nº incidencia>`,
                     value: `Muestra los detalles de una incidencia por chat`
+                  },
+                  {
+                    name: `<ID de TeamViewer>`,
+                    value: `Genera link para poder conectar`
+                  },
+                  {
+                    name: `!kick @usuario`,
+                    value: `Kickea a un usuario del canal de voz`
+                  },
+                  {
+                    name: `<select * from...>`,
+                    value: `Muestra el query embebido`
                   },
                   {
                     name: `!sql2019`,
@@ -115,29 +127,47 @@ client.on("message", (message) => {
               description: `[ADOBE READER](http://debonline.dyndns.org:4334/owncloud/index.php/apps/files/ajax/download.php?dir=%2FREPOSITORIO%2FRETAIL%2F1.Instaladores&files=ADOBE%20READER%20FULL%2011.exe)`,
               color: 16774400,
             }});
-        }
-        else if (textoMensaje == '208') {
+         } else if (textoMensaje.includes(`kick`)) {
+          
+          memberTarget = message.mentions.members.first();
+          
+          if (!message.member.hasPermission('KICK_MEMBERS')) {
+            message.reply('No tenes permiso para hacer eso capo')} 
+            else if (!memberTarget){
+              message.channel.send('A quien queres que kickee master? A vos?')
+            } else if (!memberTarget.voice.channel) {
+              message.channel.send ('Ese pibe ni está en el chat de voz, deja de flashear')
+            } else {
+              memberTarget.voice.kick().then((member) => {
+              message.channel.send(`${member} se fue kickeadisimo :wave:`)
+            }).catch(console.error)
+          }
+          
+       }else if (textoMensaje == '208') {
           message.reply("", {
             embed: {
               title: `Foca BOT`,
               author: `Foca BOT`,
               description: `no funca`,
               color: 16774400,
-            }});
+            }})
         }
-      } else if (message.content > 200000 && message.content < 400000){
+      } else if ( (message.content.replace(/\s/g, "")) > 100000000 && (message.content.replace(/\s/g, "")) < 1999999999 ){
+
+        let ID = message.content.replace(/\s/g, "");
         
-       message.channel.send("", {
-                embed: {
-                author: `Foca BOT`,
-                description: "Ahora los comandos se deben enviar con `!` adelante. Para consultar mas comandos se puede usar `!comandos`",
-                color: 16774400,
-              }}
-            )
-      }}
-      );
-      
-      
+        message.channel.send("", {
+                 embed: {
+                 author: `Foca BOT`,
+                 title: `Conexion`,
+                 description: `:busts_in_silhouette:   ID de TeamViewer detectada, clickea [ACA](https://start.teamviewer.com/${ID}) para conectarte`,
+                 color: 4491502,
+               }}
+             )
+       }
+       else if (message.content.toLowerCase().startsWith(`select * from`)) {
+        message.reply('Query formateado: ```'+message.content+'```')
+    }});
       
       async function main(link,numIncidencia) {
         //inicia puppeteer
