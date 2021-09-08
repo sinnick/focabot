@@ -1,9 +1,9 @@
  require('dotenv').config()
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const urlfoca = `http://debonline.dyndns.org:8081/sac/usuario/informes/buscar_inc.php?mand_idd=`;
+const urlfoca = `https://sac.focasoftware.com/sac/usuario/informes/buscar_inc.php?mand_idd=`;
 const puppeteer = require('puppeteer');
-let url = `http://debonline.dyndns.org:8081/sac/usuario/incidencias/listas/listausuarios.php?mand_idd=`
+let url = `http://sac.focasoftware.com/sac/usuario/incidencias/listas/listausuarios.php?mand_idd=`
 const token = process.env.TOKEN_DISCORD
 client.login(token);
 client.on("ready", () => {
